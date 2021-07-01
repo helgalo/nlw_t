@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "689850164868",
+    "project_id": "paypro-616fe",
+    "storage_bucket": "paypro-616fe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:689850164868:android:5d306c6ab26207279984d1",
+        "android_client_info": {
+          "package_name": "com.example.nlw_t"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "689850164868-bvu160s7g63uvinvm019nnmm9vitanuv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nlw_t",
+            "certificate_hash": "fd966ec787a9ce09b916d0953bec9aafeee7017e"
+          }
+        },
+        {
+          "client_id": "689850164868-gmr4a2d34k0ijdjtth0jbud862305hc0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpzIKWGV8UTCCappxzVlP8DZ0l8UmTJp4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "689850164868-gmr4a2d34k0ijdjtth0jbud862305hc0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

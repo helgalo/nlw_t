@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:nlw_t/shared/auth/auth_controller.dart';
 import 'package:nlw_t/shared/themes/app_colors.dart';
 import 'package:nlw_t/shared/themes/app_images.dart';
 
@@ -7,14 +8,16 @@ class SplashPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final authController = AuthController();
+    authController.currentUser(context);
     return Scaffold(
       // Esqueleto do App
       backgroundColor: AppColors.background,
       body: Stack(
         // Pilha de Itens
         children: [
-          Image.asset(AppImages.union),
-          Image.asset(AppImages.logoFull),
+          Center(child: Image.asset(AppImages.union)),
+          Center(child: Image.asset(AppImages.logoFull)),
         ],
       ),
     );
